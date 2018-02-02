@@ -575,7 +575,6 @@ LIMIT_MAKER
 			}
 
 			request(`${base}v3/ticker/price${params}`, function(error, response, body) {
-				console.log(body)
 				if ( !callback ) return;
 
 				if ( error )
